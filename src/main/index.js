@@ -1,7 +1,7 @@
 import { app, shell, BrowserWindow, ipcMain } from 'electron'
 import { join } from 'path'
 import { electronApp, optimizer, is } from '@electron-toolkit/utils'
-import icon from '../../resources/icon.png?asset'
+import icon from '../../resources/logoOnly.png?asset'
 
 function createWindow() {
   // Create the browser window.
@@ -9,8 +9,11 @@ function createWindow() {
     width: 900,
     height: 670,
     show: false,
+    minWidth: 900,      
+    minHeight: 670,
+    title: 'TestAPIze - API Testing Tool',
+    icon: icon,
     autoHideMenuBar: true,
-    ...(process.platform === 'linux' ? { icon } : {}),
     webPreferences: {
       preload: join(__dirname, '../preload/index.js'),
       sandbox: false
