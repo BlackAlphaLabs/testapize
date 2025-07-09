@@ -9,14 +9,15 @@ function createWindow() {
     width: 1500,
     height: 1000,
     show: false,
-    minWidth: 900,      
+    minWidth: 900,
     minHeight: 670,
     title: 'TestAPIze - API Testing Tool',
     icon: icon,
     autoHideMenuBar: true,
     webPreferences: {
       preload: join(__dirname, '../preload/index.js'),
-      sandbox: false
+      sandbox: false,
+      webSecurity: false
     }
   })
 
