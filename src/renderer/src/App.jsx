@@ -4,6 +4,7 @@ import HomePage from "./pages/HomePage"
 import EnvMain from "./pages/Env/EnvMain"
 import HomeEnv from "./pages/EnvPages/HomeEnv"
 import InforAbout from "./pages/EnvPages/InforAbout"
+import Request from "./pages/EnvPages/Request"
 
 
 const AppRoutes = () => {
@@ -19,6 +20,7 @@ const AppRoutes = () => {
         <Route path="/Env" element={<EnvMain /> } >
           <Route path="Home" element={<HomeEnv /> } />
           <Route path="About" element={<InforAbout /> } />
+          <Route path="Request" element={<Request /> } />
         </Route>
       </Routes>
     </>

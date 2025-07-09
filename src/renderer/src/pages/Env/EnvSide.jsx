@@ -9,7 +9,7 @@ const EnvSide = () => {
                     <Home size={20} />
                     <span>Home</span>
                 </a>
-                <a href="#" className="flex items-center space-x-3 text-gray-700 hover:text-indigo-500 dark:text-gray-300 dark:hover:text-indigo-400 transition-colors">
+                <a href="/Env/Request" className="flex items-center space-x-3 text-gray-700 hover:text-indigo-500 dark:text-gray-300 dark:hover:text-indigo-400 transition-colors">
                     <Send size={20} />
                     <span>Requests</span>
                 </a>
