@@ -55,7 +55,7 @@ const HomePage = () => {
                     style={{ animationDelay: '0.8s' }}
                 >
                     <a
-                        href="#get-started"
+                        href="/Env/Home"
                         className="px-8 py-3 rounded-full font-semibold text-white
                             border border-[#c850f2] hover:bg-[#c850f2] hover:text-[#0d0b1f]
                             shadow-[0_0_12px_rgba(200,80,242,0.5)]

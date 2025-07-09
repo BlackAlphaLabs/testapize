@@ -3,6 +3,7 @@ import { useEffect } from "react"
 import HomePage from "./pages/HomePage"
 import EnvMain from "./pages/Env/EnvMain"
 import HomeEnv from "./pages/EnvPages/HomeEnv"
+import InforAbout from "./pages/EnvPages/InforAbout"
 
 
 const AppRoutes = () => {
@@ -17,6 +18,7 @@ const AppRoutes = () => {
         <Route path="/" element={<HomePage />} />
         <Route path="/Env" element={<EnvMain /> } >
           <Route path="Home" element={<HomeEnv /> } />
+          <Route path="About" element={<InforAbout /> } />
         </Route>
       </Routes>
     </>

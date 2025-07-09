@@ -6,8 +6,8 @@ import icon from '../../resources/logoOnly.png?asset'
 function createWindow() {
   // Create the browser window.
   const mainWindow = new BrowserWindow({
-    width: 900,
-    height: 670,
+    width: 1500,
+    height: 1000,
     show: false,
     minWidth: 900,      
     minHeight: 670,
